@@ -7,16 +7,16 @@ Vue.component("page_details_cards_component_1722885089", {
         <h2 id="details-title" class="text-lg font-semibold mb-5 pl-4">Details</h2>
         <ul id="details-list" class="grid gap-4 min-[480px]:grid-cols-3 text-sm">
             <li id="project-length" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" :class="detailsComponentTextStyle">PAGE_DETAIL_1_KEY</div>
-                <div :class="detailsComponentTextSecondaryStyle">PAGE_DETAIL_1_VALUE</div>
+                <div class="font-medium" :class="detailsComponentTextStyle">Real-Time Tracking</div>
+                <div :class="detailsComponentTextSecondaryStyle">Instantly detect and monitor new Ethereum transactions as they occur on the blockchain.</div>
             </li>
             <li id="start-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_2_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">PAGE_DETAIL_2_VALUE</time>
+                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">Customizable Alerts</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">Set up personalized notifications for specific addresses, token transfers, or transaction values.</time>
             </li>
             <li id="end-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_3_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">PAGE_DETAIL_3_VALUE</time>
+                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">User-Friendly Interface</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">Navigate through Ethereum's complex ecosystem with our intuitive and easy-to-use dashboard.</time>
             </li>
         </ul>
     </section>
